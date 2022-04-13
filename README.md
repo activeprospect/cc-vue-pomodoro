@@ -1,23 +1,4 @@
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-
-# FrontEnd Coding Challenge - Pomodoro
+# VueJS Coding Challenge - Pomodoro
 
 The Pomodoro Technique is a simple productivity and time management method to
 help the practitioner focus and ignore distractions. The technique uses a timer
@@ -27,14 +8,32 @@ longer (20 minute) break occurs, at the end of which, the cycle begins anew.
 
 **An example:**
 
-- Pomodoro 1 (25 minutes) - perform some work
-- Break 1 (5 minutes) -  do nothing associated with the work
-- Pomodoro 2 (25 minutes) - perform some work
-- Break 2 (5 minutes) -  do nothing associated with the work
-- Pomodoro 3 (25 minutes) - perform some work
-- Break 3 (5 minutes) -  do nothing associated with the work
-- Pomodoro 4 (25 minutes) - perform some work
-- Long Break (20 minutes) -  do nothing associated with the work
+- 1st Pomodoro (25 minutes)
+- 1st Break (5 minutes)
+- 2nd Pomodoro (25 minutes)
+- 2nd Break (5 minutes)
+- 3rd Pomodoro (25 minutes)
+- 3rd Break (5 minutes)
+- 4th Pomodoro (25 minutes)
+- Long Break (20 minutes)
+
+## Challenge
+
+To complete the challenge, your project must...
+
+- Allow the user to start and stop the timer.
+- Display the time remaining in the pomodoro and the breaks
+- Keep a count of the number of completed pomodoros
+
+### Bonus Points
+
+- Set the timer back to zero if it is in the middle of a pomodoro
+- Set the timer to zero and move to the next pomodoro if it is stopped in a
+  break
+- Provide a way for the user to track interruptions, and provide a count of
+  interruptions for each pomodoro
+- Appearance
+- Tests
 
 ## Up and Running
 
@@ -59,20 +58,3 @@ While working on the challenge, use run:
 
 Share your screen with your interviewer.
 
-## Challenge
-
-To complete the challenge, your project must...
-
-- Allow the user to start and stop the timer.
-- Display the time remaining in the pomodoro and the breaks
-- Keep a count of the number of completed pomodoros
-
-### Bonus Points
-
-- Set the timer back to zero if it is in the middle of a pomodoro
-- Set the timer to zero and move to the next pomodoro if it is stopped in a
-  break
-- Provide a way for the user to track interruptions, and provide a count of
-  interruptions for each pomodoro
-- Appearance
-- Tests
